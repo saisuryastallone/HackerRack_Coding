@@ -21,10 +21,12 @@ def maximumToys(prices, k):
     sum = 0
     count = 0
     
-    for i in range(0,len(prices)):
-        for j in range(0,len(prices)-1):
-            if(prices[j]>prices[j+1]):
-                prices[j],prices[j+1] = prices[j+1], prices[j]
+#     for i in range(0,len(prices)):
+#         for j in range(0,len(prices)-1):
+#             if(prices[j]>prices[j+1]):
+#                 prices[j],prices[j+1] = prices[j+1], prices[j]
+
+    prices.sort()
             
             
         
